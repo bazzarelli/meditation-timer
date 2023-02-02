@@ -1,0 +1,36 @@
+<svg id="background">
+  <rect x="0"   y="0" width="100%" height="100%" fill="#000000" />
+  <animate attributeName="x" from="100%" to="0" begin="load" dur="0.5" easing="ease-in-out" />
+  <use href="#app-gradient-background" class="app-gradient-blue" apply-style="at-use">
+    <use href="#scrollview">
+
+      <use href="#scrollview-item" height="50"></use>
+
+      <use href="#scrollview-item" height="50">
+        <text id="sessionSummary" x="50%" class="p2 lightsteelblue-fill center-text stack-gap" />
+      </use>
+
+      <use href="#scrollview-item" height="30">
+        <text id="durationSummaryLabel" class="summary-text" />
+        <text id="durationSummary" class="summary-text" />
+      </use>
+
+      <use href="#scrollview-item" height="30">
+        <text id="startHRLabel" class="summary-text" />
+        <text id="startHR" class="summary-text" />
+      </use>
+
+      <use href="#scrollview-item" height="30">
+        <text id="restingHRLabel" class="summary-text" />
+        <text id="restingHR" class="summary-text" />
+      </use>
+
+      <use href="#scrollview-item" height="40"></use>
+
+      <use href="#scrollview-item" height="120">
+        <textarea id="sessionSummaryDetails" class="textarea-msg lightsteelblue-fill" />
+      </use>
+
+    </use>
+  </use>
+</svg>

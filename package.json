@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "6.0.2",
+    "@fitbit/sdk-cli": "1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "6702ea9f-4967-46de-9ad9-f196ab2e6259",
+    "appType": "app",
+    "appDisplayName": "Mindful",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#FF8D2C",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile",
+      "access_internet",
+      "fitbit_token",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Mindful"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

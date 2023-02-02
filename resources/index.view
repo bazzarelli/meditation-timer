@@ -1,0 +1,28 @@
+<svg>
+  <rect x="0" y="0" width="100%" height="100%" fill="#000000" />
+
+  <use href="#app-gradient-background" class="app-gradient-crimson" apply-style="at-use">
+    <use href="#scrollview">
+
+      <use href="#scrollview-item" height="20"/>
+
+      <use href="#scrollview-item" height="50">
+        <text id="beginText" x="50%" class="p2 orange-fill center-text" />
+      </use>
+
+      <use href="#scrollview-item" height="200">
+        <use id="start-button-screen" href="#start-button-item" class="start-button-container" />
+      </use>
+
+      <use href="#scrollview-item" height="25">
+        <textarea id="buzzMinderSetting" class="textarea-setting-text orange-fill" />
+      </use>
+
+      <use href="#scrollview-item" height="45">
+        <textarea id="buzzMinderIntensity" class="textarea-setting-text orange-fill" />
+      </use>
+
+    </use>
+  </use>
+
+</svg>

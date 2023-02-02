@@ -1,0 +1,49 @@
+<svg>
+  <defs>
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollbar.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/toggle_switch.defs" />
+
+    <link rel="stylesheet" href="/mnt/sysassets/colors_typography.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Start button widget -->
+    <symbol id="start-button-item" href="#tile-list-item">
+      <circle id="start-button-border" class="start-button-border" />
+      <circle id="start-button" class="start-button" />
+      <image id="start-icon" class="start-icon" href="icons/btn_combo_play_press_p.png" />
+      <rect id="start" class="tile-background" opacity="0" pointer-events="visible" />
+    </symbol>
+
+    <!-- Yogi emoji -->
+    <symbol id="yogi-emoji">
+        <image id="yogi-icon" href="images/yogi.png" />
+    </symbol>
+
+    <!-- Beating heart animation -->
+    <symbol id="heart-beat">
+      <g transform="translate(50%,50%)">
+        <image id="heart-icon" x="-50%" y="-50%" href="icons/heart_solid.png" />
+        <animateTransform
+            attributeName="transform"
+            attributeType="scale"
+            dur="0.9s"
+            from="1"
+            to="0.85"
+            repeatCount="indefinite" />
+      </g>
+    </symbol>
+
+    <!-- Scrollview -->
+    <symbol id="view-header" href="#scrollview-header">
+      <rect fill="inherit" x="0" y="0" width="100%" height="100%"/>
+      <text id="text" x="50%" y="50%+10" fill="black" font-size="30"
+        font-weight="bold" text-anchor="middle" />
+    </symbol>
+
+  </defs>
+</svg>

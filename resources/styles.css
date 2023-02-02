@@ -1,0 +1,178 @@
+.app-gradient-blue          { fill: fb-blue; }
+.app-gradient-crimson       { fill: crimson; }
+
+.lightsteelblue-fill        { fill: lightsteelblue; }
+.orange-fill                { fill: fb-orange; }
+.crimson-fill               { fill: crimson; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.text-button            { height: 60; }
+.text-button text       {
+  x: 50%;
+  y: 35;
+  width: 100%;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+}
+.text-button.bottom     { y: 100%-60; }
+.text-button.primary    { y: 100%-106; }
+.text-button.secondary  { y: 100%-50; }
+
+#btnFinish #text        { text-buffer: "FINISH"; }
+#beginText              { text-length: 30; }
+#durationText           { text-buffer: "0:00" }
+#currentRH              { text-buffer: "60 BPM" }
+#sessionStatus          { text-length: 30; }
+#sessionSummary         { text-length: 30; }
+#durationSummary        { text-buffer: "0:00"; text-length: 10; }
+#startHR                { text-buffer: "00"; text-length: 10; }
+#restingHR              { text-buffer: "00"; text-length: 10; }
+
+/* SESSION VIEW */
+.active-session {
+  x: 50%;
+  y: 60%;
+  width: 80%;
+  text-anchor: middle;
+}
+.status-text {
+  font-size: 20;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 20;
+  fill: fb-orange;
+}
+
+.yogi-emoji {
+  width: 160;
+  height: 160;
+  x: 50%-80;
+}
+
+#currentHRText { display: none; }
+
+/* SUMMARY VIEW */
+.summary-text {
+  font-size: 20;
+  font-family: System-Regular;
+  font-weight: regular;
+  fill: fb-orange;
+}
+
+#durationSummaryLabel {
+  text-buffer: "Session Time:";
+  x: 50%;
+  text-anchor: end;
+  fill: azure;
+}
+#startHRLabel {
+  text-buffer: "Starting HR:";
+  x: 50%;
+  text-anchor: end;
+  fill: azure;
+}
+#restingHRLabel {
+  text-buffer: "Avg Resting HR:";
+  x: 50%;
+  text-anchor: end;
+  fill: azure;
+}
+
+#durationSummary {
+  x: 55%;
+  text-anchor: start;
+  fill: azure;
+}
+#startHR {
+  x: 55%;
+  text-anchor: start;
+  fill: azure;
+}
+#restingHR {
+  x: 55%;
+  text-anchor: start;
+  fill: azure;
+}
+
+.tile-list-item {
+  height: 114;
+}
+
+.tile-list-header {
+  height: 69;
+}
+
+.tile-background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%-10;
+  fill: black;
+  opacity: 0.25;
+}
+
+.tile-list-item text {
+  font-size: 32;
+  text-length: 64;
+  x: 30%;
+  y: 55%;
+}
+
+.tile-list-header text {
+  x: 50%;
+}
+
+/* SESSION FINISH VIEW */
+.textarea-msg {
+  font-size: 20;
+  text-length: 150;
+  text-anchor: start;
+  x: 10%;
+  width: 80%;
+}
+
+
+/* START MEDITATION BUTTON */
+.start-button-container {
+  height: 200;
+}
+
+.start-button-border {
+  x: 50%-28;
+  y: 25%;
+  fill: yellow;
+  opacity: 0.1;
+  cx: 50%;
+  cy: 50%;
+  r: 56
+}
+
+.start-button {
+  x: 50%-25;
+  y: 25%;
+  opacity: 0.7;
+  fill: black;
+  cx: 50%;
+  cy: 50%;
+  r: 50
+}
+
+.start-icon {
+  x: 50%-20;
+  y: 39%;
+  width: 45;
+  height: 45;
+  fill: fb-orange;
+}
+
+/* BUZZ MINDER PREFERENCE */
+.textarea-setting-text {
+  font-size: 20;
+  text-length: 150;
+  text-anchor: middle;
+  x: 10%;
+  width: 80%;
+}
+

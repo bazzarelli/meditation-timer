@@ -1,0 +1,24 @@
+<svg>
+  <animate attributeName="x" from="100%" to="0" begin="load" dur="0.5" easing="ease-in-out" />
+  <rect x="0" y="0" width="100%" height="100%" fill="#000000" />
+  <use href="#app-gradient-background" class="app-gradient-crimson" apply-style="at-use">
+    <use id="active-session-container" href="#scrollview">
+
+      <use href="#scrollview-item" height="70">
+        <text id="sessionStatus" x="50%" class="h4 uppercase orange-fill center-text"/>
+      </use>
+
+      <use href="#scrollview-item" height="160">
+        <use id="yogi-emoji" href="#yogi-emoji" class="yogi-emoji"/>
+        <use href="#heart-beat" x="50%-12" y="50%" width="24" height="24"/>
+      </use>
+
+      <use href="#scrollview-item" height="40">
+        <text id="durationText" class="active-session status-text"/>
+        <text id="currentHRText" class="active-session status-text"/>
+      </use>
+    </use>
+  </use>
+
+  <use id="btnFinish" href="#text-button" class="text-button bottom orange-fill" />
+</svg>

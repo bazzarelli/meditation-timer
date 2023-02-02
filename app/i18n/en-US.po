@@ -1,0 +1,30 @@
+msgid "begin"
+msgstr "BEGIN"
+
+msgid "buzz_minder_setting_label"
+msgstr "buzz interval"
+
+msgid "buzz_minder_intensity_label"
+msgstr "buzz intensity"
+
+msgid "minutes"
+msgstr "mins"
+
+msgid "session_is_active"
+msgstr "SESSION IS ACTIVE"
+
+msgid "session_finished"
+msgstr "SESSION FINISHED"
+
+msgid "finish"
+msgstr "FINISH"
+
+msgid "session_summary"
+msgstr "SESSION SUMMARY"
+
+msgid "view_summary"
+msgstr "VIEW SUMMARY"
+
+msgid "session_summary_details"
+msgstr "Your session is complete. More details in the mindfulness area of the phone app."
+
